@@ -1,0 +1,50 @@
+{
+    "experiment": "QEC reinforcement learning sampling experiments",
+    "saved_at": "20261030_230646",
+    "checkpoint_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/sampling_experiments_20261030_230646",
+    "models": [
+        {
+            "model_name": "original_dqn",
+            "file": "original_dqn.pt",
+            "online_parameters": 21770,
+            "target_saved": true,
+            "optimizer_saved": true
+        },
+        {
+            "model_name": "natural_shaped_dqn",
+            "file": "natural_shaped_dqn.pt",
+            "online_parameters": 21770,
+            "target_saved": true,
+            "optimizer_saved": true
+        },
+        {
+            "model_name": "balanced_v1_dqn",
+            "file": "balanced_v1_dqn.pt",
+            "online_parameters": 21770,
+            "target_saved": true,
+            "optimizer_saved": true
+        },
+        {
+            "model_name": "balanced_v2_dqn",
+            "file": "balanced_v2_dqn.pt",
+            "online_parameters": 21770,
+            "target_saved": true,
+            "optimizer_saved": true
+        },
+        {
+            "model_name": "intermediate_70_30_dqn",
+            "file": "intermediate_70_30_dqn.pt",
+            "online_parameters": 21770,
+            "target_saved": true,
+            "optimizer_saved": true
+        }
+    ],
+    "missing_objects": [],
+    "notes": [
+        "Online network weights are stored as CPU tensors.",
+        "Target network weights are stored when available.",
+        "Optimizer states are stored when available.",
+        "Existing notebook models were not modified.",
+        "Held-out test data was not accessed."
+    ]
+}

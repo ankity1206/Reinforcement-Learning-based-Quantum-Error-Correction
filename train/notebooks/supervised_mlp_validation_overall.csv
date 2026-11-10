@@ -1,0 +1,2 @@
+decoder,validation_samples,best_epoch,best_validation_loss,logical_successes,logical_failures,logical_success_rate,logical_success_percent,class_balanced_logical_success_rate
+Supervised MLP,2999,33,0.22709979116916656,2710,289,0.9036345448482828,90.36345448482828,0.8294352244389933

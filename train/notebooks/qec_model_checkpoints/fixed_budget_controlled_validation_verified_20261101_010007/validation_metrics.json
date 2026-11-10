@@ -1,0 +1,226 @@
+{
+    "natural": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.5698566188729577,
+            "detector_success": 0.6625541847282428,
+            "logical_success": 0.7789263087695899,
+            "mean_corrections": 2.531843947982661,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.6539251952322236,
+                    "detector_success": 0.6921496095355528,
+                    "logical_success": 0.8713522400328813,
+                    "mean_corrections": 2.1549527332511302
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.20848056537102475,
+                    "detector_success": 0.5353356890459364,
+                    "logical_success": 0.38162544169611307,
+                    "mean_corrections": 4.151943462897527
+                }
+            },
+            "macro": {
+                "joint_success": 0.4312028803016242,
+                "detector_success": 0.6137426492907446,
+                "logical_success": 0.6264888408644972,
+                "mean_corrections": 3.1534480980743282
+            }
+        },
+        "elapsed_seconds": 1.6063823699951172
+    },
+    "80_20": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.5618539513171057,
+            "detector_success": 0.6555518506168723,
+            "logical_success": 0.7792597532510837,
+            "mean_corrections": 2.237745915305102,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.6370735717221537,
+                    "detector_success": 0.6888614878750514,
+                    "logical_success": 0.8758734073160707,
+                    "mean_corrections": 1.843403205918619
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.23851590106007067,
+                    "detector_success": 0.5123674911660777,
+                    "logical_success": 0.36395759717314485,
+                    "mean_corrections": 3.932862190812721
+                }
+            },
+            "macro": {
+                "joint_success": 0.4377947363911122,
+                "detector_success": 0.6006144895205645,
+                "logical_success": 0.6199155022446078,
+                "mean_corrections": 2.88813269836567
+            }
+        },
+        "elapsed_seconds": 1.4461987018585205
+    },
+    "75_25": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.5628542847615872,
+            "detector_success": 0.6622207402467489,
+            "logical_success": 0.7735911970656886,
+            "mean_corrections": 1.780593531177059,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.676531031648171,
+                    "detector_success": 0.7016029593094945,
+                    "logical_success": 0.903822441430333,
+                    "mean_corrections": 1.5898068228524456
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.07420494699646643,
+                    "detector_success": 0.4929328621908127,
+                    "logical_success": 0.2137809187279152,
+                    "mean_corrections": 2.6007067137809186
+                }
+            },
+            "macro": {
+                "joint_success": 0.3753679893223187,
+                "detector_success": 0.5972679107501536,
+                "logical_success": 0.5588016800791241,
+                "mean_corrections": 2.0952567683166823
+            }
+        },
+        "elapsed_seconds": 1.2904493808746338
+    },
+    "70_30": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.48349449816605533,
+            "detector_success": 0.6035345115038346,
+            "logical_success": 0.6982327442480827,
+            "mean_corrections": 3.1850616872290765,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.5076037813399096,
+                    "detector_success": 0.6288532675709001,
+                    "logical_success": 0.7147554459515002,
+                    "mean_corrections": 2.6962597616111794
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.37985865724381623,
+                    "detector_success": 0.49469964664310956,
+                    "logical_success": 0.627208480565371,
+                    "mean_corrections": 5.286219081272085
+                }
+            },
+            "macro": {
+                "joint_success": 0.4437312192918629,
+                "detector_success": 0.5617764571070049,
+                "logical_success": 0.6709819632584356,
+                "mean_corrections": 3.991239421441632
+            }
+        },
+        "elapsed_seconds": 1.8061103820800781
+    },
+    "65_35": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.43647882627542517,
+            "detector_success": 0.6112037345781928,
+            "logical_success": 0.6108702900966989,
+            "mean_corrections": 4.578192730910303,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.4204685573366215,
+                    "detector_success": 0.6292642827784628,
+                    "logical_success": 0.5602137279079326,
+                    "mean_corrections": 3.9046444718454585
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.5053003533568905,
+                    "detector_success": 0.5335689045936396,
+                    "logical_success": 0.8286219081272085,
+                    "mean_corrections": 7.4734982332155475
+                }
+            },
+            "macro": {
+                "joint_success": 0.462884455346756,
+                "detector_success": 0.5814165936860511,
+                "logical_success": 0.6944178180175705,
+                "mean_corrections": 5.689071352530503
+            }
+        },
+        "elapsed_seconds": 2.320993185043335
+    },
+    "60_40": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.47915971990663553,
+            "detector_success": 0.6102034011337112,
+            "logical_success": 0.6932310770256752,
+            "mean_corrections": 4.713237745915305,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.4969173859432799,
+                    "detector_success": 0.6374845869297164,
+                    "logical_success": 0.7040690505548706,
+                    "mean_corrections": 4.184134812988081
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.4028268551236749,
+                    "detector_success": 0.4929328621908127,
+                    "logical_success": 0.6466431095406361,
+                    "mean_corrections": 6.987632508833922
+                }
+            },
+            "macro": {
+                "joint_success": 0.44987212053347736,
+                "detector_success": 0.5652087245602646,
+                "logical_success": 0.6753560800477534,
+                "mean_corrections": 5.585883660911001
+            }
+        },
+        "elapsed_seconds": 2.4405455589294434
+    },
+    "50_50": {
+        "metrics": {
+            "n": 2999,
+            "joint_success": 0.4148049349783261,
+            "detector_success": 0.5695231743914638,
+            "logical_success": 0.608869623207736,
+            "mean_corrections": 4.9469823274424805,
+            "classwise": {
+                "0": {
+                    "n": 2433,
+                    "joint_success": 0.3871763255240444,
+                    "detector_success": 0.572544184134813,
+                    "logical_success": 0.5606247431154953,
+                    "mean_corrections": 4.342375667899712
+                },
+                "1": {
+                    "n": 566,
+                    "joint_success": 0.5335689045936396,
+                    "detector_success": 0.5565371024734982,
+                    "logical_success": 0.8162544169611308,
+                    "mean_corrections": 7.545936395759718
+                }
+            },
+            "macro": {
+                "joint_success": 0.46037261505884197,
+                "detector_success": 0.5645406433041555,
+                "logical_success": 0.688439580038313,
+                "mean_corrections": 5.944156031829715
+            }
+        },
+        "elapsed_seconds": 2.489962100982666
+    }
+}

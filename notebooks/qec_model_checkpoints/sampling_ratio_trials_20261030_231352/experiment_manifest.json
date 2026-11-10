@@ -1,0 +1,31 @@
+{
+    "experiment": "Reward-shaped Double DQN sampling-ratio study",
+    "timestamp": "20261030_231352",
+    "trials": [
+        "natural",
+        "80_20",
+        "75_25",
+        "70_30",
+        "65_35",
+        "60_40",
+        "50_50"
+    ],
+    "config": {
+        "episodes": 1500,
+        "warmup_episodes": 100,
+        "gamma": 0.99,
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_episodes": 1000,
+        "target_update_interval": 200,
+        "gradient_clip": 10.0,
+        "replay_capacity": 50000,
+        "correction_cost": 0.05
+    },
+    "common_initialization": "COMMON_INITIAL_STATE",
+    "validation_samples": 2999,
+    "test_set_used": false,
+    "output_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/sampling_ratio_trials_20261030_231352"
+}

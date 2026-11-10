@@ -1,0 +1,68 @@
+{
+    "experiment_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138",
+    "initializations": [
+        {
+            "replicate": 1,
+            "initialization_seed": 94000,
+            "initialization_file": "initializations/replicate_01.pt",
+            "sha256": "acf9fe98b61840266231245f2a76dc3b492fa958e6a544a176b1564e0bd8d12a",
+            "parameter_count": 21770,
+            "training_seeds": {
+                "natural": 95000,
+                "80_20": 95001,
+                "75_25": 95002,
+                "70_30": 95003,
+                "65_35": 95004,
+                "60_40": 95005,
+                "50_50": 95006
+            },
+            "original_sha256": "f7564155dbeb849f914ca1ccd95fac3177bb6e76c51db1580297060bda666760",
+            "sha256_type": "serialized_file_bytes",
+            "seed_reproduction_verified": true,
+            "verified_initialization_seed": 94000,
+            "verified_parameter_count": 21770
+        },
+        {
+            "replicate": 2,
+            "initialization_seed": 94001,
+            "initialization_file": "initializations/replicate_02.pt",
+            "sha256": "11c89c527670006bb0b2a7a3c58cb004a2d3e9bee3182f7403aa1212dae4ed9b",
+            "parameter_count": 21770,
+            "training_seeds": {
+                "natural": 95100,
+                "80_20": 95101,
+                "75_25": 95102,
+                "70_30": 95103,
+                "65_35": 95104,
+                "60_40": 95105,
+                "50_50": 95106
+            },
+            "original_sha256": "12934d3db1eba169243e96ec4729338bc2e3582cd897d87636364354d6a2ab41",
+            "sha256_type": "serialized_file_bytes",
+            "seed_reproduction_verified": true,
+            "verified_initialization_seed": 94001,
+            "verified_parameter_count": 21770
+        },
+        {
+            "replicate": 3,
+            "initialization_seed": 94002,
+            "initialization_file": "initializations/replicate_03.pt",
+            "sha256": "ab74142e2e457085036d42fa4a1f15adde53bf6e75bb5abd612f84f0de396e47",
+            "parameter_count": 21770,
+            "training_seeds": {
+                "natural": 95200,
+                "80_20": 95201,
+                "75_25": 95202,
+                "70_30": 95203,
+                "65_35": 95204,
+                "60_40": 95205,
+                "50_50": 95206
+            },
+            "original_sha256": "5d0c80be703753c88e80a8949a95a5c6bad8033712ee92bc0f38108b5b2adab2",
+            "sha256_type": "serialized_file_bytes",
+            "seed_reproduction_verified": true,
+            "verified_initialization_seed": 94002,
+            "verified_parameter_count": 21770
+        }
+    ]
+}

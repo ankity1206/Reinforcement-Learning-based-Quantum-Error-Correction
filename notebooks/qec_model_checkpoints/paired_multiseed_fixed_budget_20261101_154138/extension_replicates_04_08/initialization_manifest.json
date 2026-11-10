@@ -1,0 +1,74 @@
+{
+  "experiment_name": "paired_multiseed_fixed_budget_extension",
+  "parent_experiment": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138",
+  "extension_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/extension_replicates_04_08",
+  "created_at": "2026-11-01T16:34:09.234857",
+  "replicates": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "initialization_design": "Each replicate has one independent initialization. All seven sampling strategies within a replicate will load the same initialization.",
+  "initializations": [
+    {
+      "replicate": 4,
+      "initialization_seed": 94003,
+      "initialization_file": "initializations/replicate_04.pt",
+      "sha256": "5b5ba5f6f3b9a34067c896db91db942ef1e8809ddf230827da3bde7add1fe935",
+      "sha256_type": "serialized_file_bytes",
+      "parameter_count": 21770,
+      "tensor_entries": 6,
+      "seed_reproduction_verified": true,
+      "saved_reload_verified": true
+    },
+    {
+      "replicate": 5,
+      "initialization_seed": 94004,
+      "initialization_file": "initializations/replicate_05.pt",
+      "sha256": "9a1a905d92e9748a567022a60e5fd9e62e63b881a255644ba720dfb4add273c3",
+      "sha256_type": "serialized_file_bytes",
+      "parameter_count": 21770,
+      "tensor_entries": 6,
+      "seed_reproduction_verified": true,
+      "saved_reload_verified": true
+    },
+    {
+      "replicate": 6,
+      "initialization_seed": 94005,
+      "initialization_file": "initializations/replicate_06.pt",
+      "sha256": "55ce0a4f88bbfa3ad097cc94070b2fbd58df16f79483be40c92c0e071b1da29e",
+      "sha256_type": "serialized_file_bytes",
+      "parameter_count": 21770,
+      "tensor_entries": 6,
+      "seed_reproduction_verified": true,
+      "saved_reload_verified": true
+    },
+    {
+      "replicate": 7,
+      "initialization_seed": 94006,
+      "initialization_file": "initializations/replicate_07.pt",
+      "sha256": "5152e46c075430d6b6ef170238d28219ee418eda4c38c1450dccf8d91d1c70bd",
+      "sha256_type": "serialized_file_bytes",
+      "parameter_count": 21770,
+      "tensor_entries": 6,
+      "seed_reproduction_verified": true,
+      "saved_reload_verified": true
+    },
+    {
+      "replicate": 8,
+      "initialization_seed": 94007,
+      "initialization_file": "initializations/replicate_08.pt",
+      "sha256": "c892f2e156b568a3b3aa1878eeef12828470b59059e860b7ddc1ab6fae6b7a00",
+      "sha256_type": "serialized_file_bytes",
+      "parameter_count": 21770,
+      "tensor_entries": 6,
+      "seed_reproduction_verified": true,
+      "saved_reload_verified": true
+    }
+  ],
+  "test_set_used": false,
+  "training_performed": false,
+  "validation_evaluation_performed": false
+}

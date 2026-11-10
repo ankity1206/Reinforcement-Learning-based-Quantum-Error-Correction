@@ -1,0 +1,13 @@
+{
+    "dataset_file": "surface_code_d3_r3_p001.npz",
+    "split_file": "surface_code_d3_r3_p001_splits.npz",
+    "random_seed": 123,
+    "stratification_variable": "L_target",
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15,
+    "test_ratio": 0.15,
+    "total_samples": 20000,
+    "train_samples": 13999,
+    "validation_samples": 2999,
+    "test_samples": 3002
+}

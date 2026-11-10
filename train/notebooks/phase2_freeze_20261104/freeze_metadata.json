@@ -1,0 +1,41 @@
+{
+  "project_phase": "Phase 2 \u2014 baseline comparison",
+  "freeze_date": "2026-11-04",
+  "status": "frozen",
+  "scope": [
+    "PyMatching validation baseline",
+    "Supervised MLP validation baseline",
+    "Eight-replicate RL validation evaluation",
+    "Paired RL statistical analysis"
+  ],
+  "excluded_scope": [
+    "Phase 3 generalization",
+    "Held-out test-set evaluation"
+  ],
+  "rl_evaluation": {
+    "number_of_replicates": 8,
+    "number_of_strategies": 7,
+    "number_of_trials": 56,
+    "validation_samples_per_trial": 2999,
+    "training_performed_during_evaluation": false,
+    "test_set_accessed": false,
+    "prior_gradient_updates_per_policy": 7000,
+    "total_prior_gradient_updates": 392000
+  },
+  "paired_analysis": {
+    "primary_endpoint": "joint_success",
+    "primary_comparison_count": 24,
+    "test": "exact two-sided paired sign-flip",
+    "sign_assignments_per_test": 256,
+    "multiple_testing_correction": "Holm step-down",
+    "familywise_alpha": 0.05,
+    "holm_significant_comparisons": 0
+  },
+  "baseline_runs": {
+    "pymatching": 1,
+    "supervised_mlp": 1
+  },
+  "test_set_policy": "reserved for final evaluation only",
+  "source_rl_archive": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108",
+  "source_working_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks"
+}

@@ -1,0 +1,35 @@
+{
+  "analysis": "success_conditional_on_correction_count",
+  "created_at": "2026-11-01T17:33:30.634470",
+  "evaluation_archive": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108",
+  "output_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108/conditional_success_by_correction_count_8_replicates",
+  "replicates": 8,
+  "strategies": [
+    "natural",
+    "80_20",
+    "75_25",
+    "70_30",
+    "65_35",
+    "60_40",
+    "50_50"
+  ],
+  "validation_samples": 2999,
+  "class0_samples": 2433,
+  "class1_samples": 566,
+  "correction_counts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "training_performed": false,
+  "policy_evaluation_performed": false,
+  "test_set_accessed": false,
+  "source_archive_modified": false
+}

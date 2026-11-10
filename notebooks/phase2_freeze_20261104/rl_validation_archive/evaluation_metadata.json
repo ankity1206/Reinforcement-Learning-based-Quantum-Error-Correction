@@ -1,0 +1,28 @@
+{
+  "evaluation_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108",
+  "created_at": "2026-11-01T17:16:15.413280",
+  "number_of_replicates": 8,
+  "strategies": [
+    "natural",
+    "80_20",
+    "75_25",
+    "70_30",
+    "65_35",
+    "60_40",
+    "50_50"
+  ],
+  "number_of_trials": 56,
+  "validation_sample_count": 2999,
+  "validation_class_counts": {
+    "class_0": 2433,
+    "class_1": 566
+  },
+  "gradient_updates_per_trial": 7000,
+  "total_training_gradient_updates": 392000,
+  "evaluation_policy": "greedy",
+  "environment": "independent deepcopy of validation_env per trial",
+  "variable_length_serialization": "JSON string per validation sample",
+  "training_performed": false,
+  "test_set_accessed": false,
+  "elapsed_seconds": 107.88175868988037
+}

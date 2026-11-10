@@ -1,0 +1,86 @@
+{
+  "replicate_01_natural": {
+    "STOP": 2690,
+    "MAX_STEPS": 309
+  },
+  "replicate_01_80_20": {
+    "MAX_STEPS": 553,
+    "STOP": 2446
+  },
+  "replicate_01_75_25": {
+    "STOP": 2459,
+    "MAX_STEPS": 540
+  },
+  "replicate_01_70_30": {
+    "STOP": 2596,
+    "MAX_STEPS": 403
+  },
+  "replicate_01_65_35": {
+    "MAX_STEPS": 664,
+    "STOP": 2335
+  },
+  "replicate_01_60_40": {
+    "MAX_STEPS": 1073,
+    "STOP": 1926
+  },
+  "replicate_01_50_50": {
+    "MAX_STEPS": 1467,
+    "STOP": 1532
+  },
+  "replicate_02_natural": {
+    "STOP": 2632,
+    "MAX_STEPS": 367
+  },
+  "replicate_02_80_20": {
+    "STOP": 2736,
+    "MAX_STEPS": 263
+  },
+  "replicate_02_75_25": {
+    "STOP": 2454,
+    "MAX_STEPS": 545
+  },
+  "replicate_02_70_30": {
+    "MAX_STEPS": 831,
+    "STOP": 2168
+  },
+  "replicate_02_65_35": {
+    "MAX_STEPS": 877,
+    "STOP": 2122
+  },
+  "replicate_02_60_40": {
+    "MAX_STEPS": 833,
+    "STOP": 2166
+  },
+  "replicate_02_50_50": {
+    "MAX_STEPS": 1168,
+    "STOP": 1831
+  },
+  "replicate_03_natural": {
+    "STOP": 2492,
+    "MAX_STEPS": 507
+  },
+  "replicate_03_80_20": {
+    "STOP": 2848,
+    "MAX_STEPS": 151
+  },
+  "replicate_03_75_25": {
+    "MAX_STEPS": 453,
+    "STOP": 2546
+  },
+  "replicate_03_70_30": {
+    "MAX_STEPS": 754,
+    "STOP": 2245
+  },
+  "replicate_03_65_35": {
+    "MAX_STEPS": 577,
+    "STOP": 2422
+  },
+  "replicate_03_60_40": {
+    "MAX_STEPS": 684,
+    "STOP": 2315
+  },
+  "replicate_03_50_50": {
+    "MAX_STEPS": 1027,
+    "STOP": 1972
+  }
+}

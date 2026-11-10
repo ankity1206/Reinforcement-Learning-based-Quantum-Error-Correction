@@ -1,0 +1,52 @@
+{
+    "gradient_update_budget": 7000,
+    "base_seed": 93000,
+    "natural_class1_ratio": 0.18865633259518538,
+    "ratios": [
+        {
+            "name": "natural",
+            "class1_ratio": 0.18865633259518538
+        },
+        {
+            "name": "80_20",
+            "class1_ratio": 0.2
+        },
+        {
+            "name": "75_25",
+            "class1_ratio": 0.25
+        },
+        {
+            "name": "70_30",
+            "class1_ratio": 0.3
+        },
+        {
+            "name": "65_35",
+            "class1_ratio": 0.35
+        },
+        {
+            "name": "60_40",
+            "class1_ratio": 0.4
+        },
+        {
+            "name": "50_50",
+            "class1_ratio": 0.5
+        }
+    ],
+    "training_configuration": {
+        "episodes": 1500,
+        "warmup_episodes": 100,
+        "gamma": 0.99,
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_episodes": 1000,
+        "target_update_interval": 200,
+        "gradient_clip": 10.0,
+        "replay_capacity": 50000,
+        "correction_cost": 0.05,
+        "gradient_update_budget": 7000,
+        "epsilon_decay_updates": 6000
+    },
+    "test_set_used": false
+}

@@ -1,0 +1,26 @@
+{
+  "project": "Reinforcement Learning for Active Quantum Syndrome Decoding",
+  "dataset": {
+    "error_patterns": 512,
+    "data_qubits": 9,
+    "detectors": 24,
+    "unique_syndromes": 16,
+    "dataset_type": "Exhaustive fixed-location error patterns; not a stochastic circuit-level benchmark"
+  },
+  "measured_results": {
+    "no_correction_success_rate": 0.03125,
+    "lookup_environment_success_rate": 0.490234375,
+    "original_dqn_success_rate": 0.03173828125,
+    "imitation_environment_success_rate": 0.474609375,
+    "synthetic_dqn_final_action_zero_rate": 1.0,
+    "imitation_training_action_accuracy": 1.0,
+    "imitation_first_action_agreement": 1.0
+  },
+  "notes": [
+    "The original DQN result used 2048 evaluation episodes.",
+    "The lookup and imitation environment tests used 512 episodes.",
+    "The imitation policy was trained on lookup-decoder action targets.",
+    "The 50% ceiling applies to this particular controlled dataset.",
+    "The replay buffer was not saved in these checkpoints."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "analysis": "failure_decomposition_and_correction_count_analysis",
+  "created_at": "2026-11-01T17:31:39.722212",
+  "evaluation_archive": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108",
+  "output_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108/failure_and_correction_analysis_8_replicates",
+  "replicates": 8,
+  "strategies": [
+    "natural",
+    "80_20",
+    "75_25",
+    "70_30",
+    "65_35",
+    "60_40",
+    "50_50"
+  ],
+  "validation_samples": 2999,
+  "class0_samples": 2433,
+  "class1_samples": 566,
+  "maximum_corrections": 9,
+  "failure_categories": [
+    "full_success",
+    "detector_only_failure",
+    "logical_only_failure",
+    "both_fail"
+  ],
+  "training_performed": false,
+  "policy_evaluation_performed": false,
+  "test_set_accessed": false,
+  "source_archive_modified": false
+}

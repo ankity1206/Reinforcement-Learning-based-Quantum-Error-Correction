@@ -1,0 +1,29 @@
+{
+  "analysis": "paired_multiseed_validation_analysis",
+  "created_at": "2026-11-01T16:29:52.039409",
+  "source_metrics": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_20261101_162325/per_trial_validation_metrics.csv",
+  "sampling_strategies": [
+    "natural",
+    "80_20",
+    "75_25",
+    "70_30",
+    "65_35",
+    "60_40",
+    "50_50"
+  ],
+  "reference_strategy": "natural",
+  "replicates": 3,
+  "statistical_unit": "training_replicate",
+  "paired_design": "Candidate and natural models share the same initialization within each replicate.",
+  "test_set_used": false,
+  "paired_test": "Exact two-sided sign-flip permutation test",
+  "permutations": 8,
+  "minimum_attainable_two_sided_p": 0.25,
+  "interpretation": "Exploratory descriptive analysis; insufficient replicate count for conventional significance claims.",
+  "files": [
+    "descriptive_replicate_summary.csv",
+    "paired_replicate_differences.csv",
+    "paired_replicate_summary.csv",
+    "class1_80_20_diagnostic.csv"
+  ]
+}

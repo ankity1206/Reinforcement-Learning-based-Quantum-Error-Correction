@@ -1,0 +1,125 @@
+{
+  "experiment_name": "paired_multiseed_fixed_budget_extension",
+  "created_at": "2026-11-01T16:35:43.072805",
+  "parent_experiment": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138",
+  "replicates": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "num_new_replicates": 5,
+  "num_sampling_conditions": 7,
+  "num_new_training_trials": 35,
+  "architecture": {
+    "observation_dim": 30,
+    "hidden_dimensions": [
+      128,
+      128
+    ],
+    "action_dim": 10,
+    "parameter_count": 21770
+  },
+  "training": {
+    "gradient_update_budget": 7000,
+    "target_update_interval": 200,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_updates": 6000,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "correction_cost": 0.05
+  },
+  "sampling_conditions": [
+    {
+      "name": "natural",
+      "requested_class1_ratio": 0.18865633259518538
+    },
+    {
+      "name": "80_20",
+      "requested_class1_ratio": 0.2
+    },
+    {
+      "name": "75_25",
+      "requested_class1_ratio": 0.25
+    },
+    {
+      "name": "70_30",
+      "requested_class1_ratio": 0.3
+    },
+    {
+      "name": "65_35",
+      "requested_class1_ratio": 0.35
+    },
+    {
+      "name": "60_40",
+      "requested_class1_ratio": 0.4
+    },
+    {
+      "name": "50_50",
+      "requested_class1_ratio": 0.5
+    }
+  ],
+  "initialization_seeds": {
+    "4": 94003,
+    "5": 94004,
+    "6": 94005,
+    "7": 94006,
+    "8": 94007
+  },
+  "training_seeds": {
+    "4": {
+      "natural": 95300,
+      "80_20": 95301,
+      "75_25": 95302,
+      "70_30": 95303,
+      "65_35": 95304,
+      "60_40": 95305,
+      "50_50": 95306
+    },
+    "5": {
+      "natural": 95400,
+      "80_20": 95401,
+      "75_25": 95402,
+      "70_30": 95403,
+      "65_35": 95404,
+      "60_40": 95405,
+      "50_50": 95406
+    },
+    "6": {
+      "natural": 95500,
+      "80_20": 95501,
+      "75_25": 95502,
+      "70_30": 95503,
+      "65_35": 95504,
+      "60_40": 95505,
+      "50_50": 95506
+    },
+    "7": {
+      "natural": 95600,
+      "80_20": 95601,
+      "75_25": 95602,
+      "70_30": 95603,
+      "65_35": 95604,
+      "60_40": 95605,
+      "50_50": 95606
+    },
+    "8": {
+      "natural": 95700,
+      "80_20": 95701,
+      "75_25": 95702,
+      "70_30": 95703,
+      "65_35": 95704,
+      "60_40": 95705,
+      "50_50": 95706
+    }
+  },
+  "paired_initialization_design": "Within each replicate, all seven sampling conditions use the same initial network state. Different replicates use independent initial states.",
+  "sampling_method": "Class-wise resampling within the training split. Replacement is used whenever requested class counts differ from the available class counts.",
+  "validation_used_during_training": false,
+  "test_set_used": false,
+  "training_performed": false,
+  "validation_evaluation_performed": false
+}

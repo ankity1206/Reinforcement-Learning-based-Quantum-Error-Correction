@@ -1,0 +1,2 @@
+decoder,validation_samples,logical_successes,logical_failures,logical_success_rate,logical_success_percent,class_balanced_logical_success_rate
+PyMatching,2999,2778,221,0.9263087695898633,92.63087695898633,0.8773039726144779

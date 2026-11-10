@@ -1,0 +1,67 @@
+{
+  "experiment_name": "paired_multiseed_fixed_budget",
+  "created_at": "2026-11-01T15:41:38.039672",
+  "num_new_replicates": 3,
+  "num_sampling_conditions": 7,
+  "num_new_training_trials": 21,
+  "architecture": {
+    "observation_dim": 30,
+    "hidden_dimensions": [
+      128,
+      128
+    ],
+    "action_dim": 10,
+    "parameter_count": 21770
+  },
+  "training": {
+    "gradient_update_budget": 7000,
+    "target_update_interval": 200,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_updates": 6000,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "gamma": 0.99,
+    "correction_cost": 0.05
+  },
+  "sampling_conditions": [
+    {
+      "name": "natural",
+      "requested_class1_ratio": 0.18865633259518538
+    },
+    {
+      "name": "80_20",
+      "requested_class1_ratio": 0.2
+    },
+    {
+      "name": "75_25",
+      "requested_class1_ratio": 0.25
+    },
+    {
+      "name": "70_30",
+      "requested_class1_ratio": 0.3
+    },
+    {
+      "name": "65_35",
+      "requested_class1_ratio": 0.35
+    },
+    {
+      "name": "60_40",
+      "requested_class1_ratio": 0.4
+    },
+    {
+      "name": "50_50",
+      "requested_class1_ratio": 0.5
+    }
+  ],
+  "initialization_seeds": [
+    94000,
+    94001,
+    94002
+  ],
+  "training_seed_base": 95000,
+  "validation_used_during_training": false,
+  "test_set_used": false,
+  "paired_initialization_design": "Within each replicate, all seven sampling conditions use the same initial network state. Different replicates use independent initial network states.",
+  "sampling_method": "Class-wise resampling within the training split. Replacement is used whenever requested class counts differ from the available class counts."
+}

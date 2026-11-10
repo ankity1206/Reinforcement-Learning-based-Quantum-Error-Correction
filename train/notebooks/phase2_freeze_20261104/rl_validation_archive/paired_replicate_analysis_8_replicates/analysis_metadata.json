@@ -1,0 +1,26 @@
+{
+  "analysis": "Eight-replicate paired analysis of validation results",
+  "created_at": "2026-11-01T17:26:29",
+  "source_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108",
+  "analysis_directory": "/home/ankit/Desktop/qskit/qec_ml/notebooks/qec_model_checkpoints/paired_multiseed_fixed_budget_20261101_154138/validation_evaluation_56_models_20261101_171108/paired_replicate_analysis_8_replicates",
+  "number_of_replicates": 8,
+  "number_of_strategies": 7,
+  "baseline": "natural",
+  "primary_endpoint": "joint_success",
+  "primary_populations": [
+    "overall",
+    "class0",
+    "class1",
+    "macro"
+  ],
+  "primary_comparison_count": 24,
+  "test": "exact two-sided paired sign-flip test",
+  "sign_assignments_per_test": 256,
+  "multiple_testing_correction": "Holm step-down",
+  "familywise_alpha": 0.05,
+  "confidence_interval": "two-sided 95% t interval over eight paired replicate differences",
+  "secondary_analysis": "descriptive only; no confirmatory p-values",
+  "training_performed": false,
+  "policy_evaluation_performed": false,
+  "test_set_accessed": false
+}

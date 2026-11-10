@@ -1,0 +1,463 @@
+{
+  "status": "completed",
+  "planned_trials": 56,
+  "completed_trials": 56,
+  "failed_trials": [],
+  "validation_samples_per_trial": 2999,
+  "test_set_accessed": false,
+  "training_performed": false,
+  "serialization": {
+    "correction_vectors": "per-sample JSON strings",
+    "correction_patterns": "per-sample JSON strings"
+  },
+  "trials": [
+    {
+      "trial_key": "replicate_01_natural",
+      "status": "completed",
+      "joint_success": 0.5465155051683894,
+      "detector_success": 0.6398799599866623,
+      "logical_success": 0.7632544181393798,
+      "macro_joint_success": 0.40122600172248774
+    },
+    {
+      "trial_key": "replicate_01_80_20",
+      "status": "completed",
+      "joint_success": 0.5678559519839946,
+      "detector_success": 0.6608869623207736,
+      "logical_success": 0.7749249749916639,
+      "macro_joint_success": 0.48352271984593465
+    },
+    {
+      "trial_key": "replicate_01_75_25",
+      "status": "completed",
+      "joint_success": 0.5401800600200066,
+      "detector_success": 0.6335445148382794,
+      "logical_success": 0.7615871957319106,
+      "macro_joint_success": 0.45087424241764085
+    },
+    {
+      "trial_key": "replicate_01_70_30",
+      "status": "completed",
+      "joint_success": 0.51783927975992,
+      "detector_success": 0.6072024008002668,
+      "logical_success": 0.7262420806935646,
+      "macro_joint_success": 0.42964850211825323
+    },
+    {
+      "trial_key": "replicate_01_65_35",
+      "status": "completed",
+      "joint_success": 0.4704901633877959,
+      "detector_success": 0.5715238412804268,
+      "logical_success": 0.6685561853951317,
+      "macro_joint_success": 0.43300488425492234
+    },
+    {
+      "trial_key": "replicate_01_60_40",
+      "status": "completed",
+      "joint_success": 0.4734911637212404,
+      "detector_success": 0.6282094031343781,
+      "logical_success": 0.6558852950983661,
+      "macro_joint_success": 0.47552753003097864
+    },
+    {
+      "trial_key": "replicate_01_50_50",
+      "status": "completed",
+      "joint_success": 0.42414138046015337,
+      "detector_success": 0.6538846282094032,
+      "logical_success": 0.5818606202067356,
+      "macro_joint_success": 0.4776508665449597
+    },
+    {
+      "trial_key": "replicate_02_natural",
+      "status": "completed",
+      "joint_success": 0.573191063687896,
+      "detector_success": 0.6675558519506503,
+      "logical_success": 0.7855951983994665,
+      "macro_joint_success": 0.4366473794512729
+    },
+    {
+      "trial_key": "replicate_02_80_20",
+      "status": "completed",
+      "joint_success": 0.5481827275758586,
+      "detector_success": 0.6328776258752917,
+      "logical_success": 0.7775925308436146,
+      "macro_joint_success": 0.4042871936084957
+    },
+    {
+      "trial_key": "replicate_02_75_25",
+      "status": "completed",
+      "joint_success": 0.5491830610203401,
+      "detector_success": 0.6428809603201067,
+      "logical_success": 0.7622540846948983,
+      "macro_joint_success": 0.4625239093210406
+    },
+    {
+      "trial_key": "replicate_02_70_30",
+      "status": "completed",
+      "joint_success": 0.5055018339446482,
+      "detector_success": 0.6332110703567856,
+      "logical_success": 0.7282427475825275,
+      "macro_joint_success": 0.47220818283350685
+    },
+    {
+      "trial_key": "replicate_02_65_35",
+      "status": "completed",
+      "joint_success": 0.47915971990663553,
+      "detector_success": 0.6025341780593532,
+      "logical_success": 0.6512170723574525,
+      "macro_joint_success": 0.47766539005052727
+    },
+    {
+      "trial_key": "replicate_02_60_40",
+      "status": "completed",
+      "joint_success": 0.5071690563521174,
+      "detector_success": 0.6308769589863288,
+      "logical_success": 0.7139046348782928,
+      "macro_joint_success": 0.4786587978313501
+    },
+    {
+      "trial_key": "replicate_02_50_50",
+      "status": "completed",
+      "joint_success": 0.3801267089029677,
+      "detector_success": 0.5745248416138713,
+      "logical_success": 0.5661887295765256,
+      "macro_joint_success": 0.4213748240840388
+    },
+    {
+      "trial_key": "replicate_03_natural",
+      "status": "completed",
+      "joint_success": 0.5531843947982661,
+      "detector_success": 0.6582194064688229,
+      "logical_success": 0.7525841947315772,
+      "macro_joint_success": 0.457533269720379
+    },
+    {
+      "trial_key": "replicate_03_80_20",
+      "status": "completed",
+      "joint_success": 0.5071690563521174,
+      "detector_success": 0.5905301767255752,
+      "logical_success": 0.7512504168056019,
+      "macro_joint_success": 0.34037033486846785
+    },
+    {
+      "trial_key": "replicate_03_75_25",
+      "status": "completed",
+      "joint_success": 0.48449483161053686,
+      "detector_success": 0.5791930643547849,
+      "logical_success": 0.7022340780260087,
+      "macro_joint_success": 0.4179102418308912
+    },
+    {
+      "trial_key": "replicate_03_70_30",
+      "status": "completed",
+      "joint_success": 0.49849949983327774,
+      "detector_success": 0.6038679559853285,
+      "logical_success": 0.7072357452484161,
+      "macro_joint_success": 0.46246944617516217
+    },
+    {
+      "trial_key": "replicate_03_65_35",
+      "status": "completed",
+      "joint_success": 0.5421807269089697,
+      "detector_success": 0.644214738246082,
+      "logical_success": 0.7435811937312438,
+      "macro_joint_success": 0.4643092112429361
+    },
+    {
+      "trial_key": "replicate_03_60_40",
+      "status": "completed",
+      "joint_success": 0.48916305435145047,
+      "detector_success": 0.6102034011337112,
+      "logical_success": 0.7085695231743915,
+      "macro_joint_success": 0.43298927148643723
+    },
+    {
+      "trial_key": "replicate_03_50_50",
+      "status": "completed",
+      "joint_success": 0.41780593531177057,
+      "detector_success": 0.5765255085028342,
+      "logical_success": 0.6228742914304768,
+      "macro_joint_success": 0.42290487539558397
+    },
+    {
+      "trial_key": "replicate_04_natural",
+      "status": "completed",
+      "joint_success": 0.5695231743914638,
+      "detector_success": 0.6658886295431811,
+      "logical_success": 0.7615871957319106,
+      "macro_joint_success": 0.4676031423056646
+    },
+    {
+      "trial_key": "replicate_04_80_20",
+      "status": "completed",
+      "joint_success": 0.5058352784261421,
+      "detector_success": 0.5961987329109704,
+      "logical_success": 0.7592530843614538,
+      "macro_joint_success": 0.37344253557169604
+    },
+    {
+      "trial_key": "replicate_04_75_25",
+      "status": "completed",
+      "joint_success": 0.5378459486495498,
+      "detector_success": 0.6275425141713905,
+      "logical_success": 0.741247082360787,
+      "macro_joint_success": 0.4392674198556654
+    },
+    {
+      "trial_key": "replicate_04_70_30",
+      "status": "completed",
+      "joint_success": 0.5188396132044014,
+      "detector_success": 0.6252084028009336,
+      "logical_success": 0.7532510836945648,
+      "macro_joint_success": 0.427553486440129
+    },
+    {
+      "trial_key": "replicate_04_65_35",
+      "status": "completed",
+      "joint_success": 0.48682894298099366,
+      "detector_success": 0.6112037345781928,
+      "logical_success": 0.695565188396132,
+      "macro_joint_success": 0.47154591097962495
+    },
+    {
+      "trial_key": "replicate_04_60_40",
+      "status": "completed",
+      "joint_success": 0.4614871623874625,
+      "detector_success": 0.6198732910970324,
+      "logical_success": 0.6715571857285761,
+      "macro_joint_success": 0.4301677174422945
+    },
+    {
+      "trial_key": "replicate_04_50_50",
+      "status": "completed",
+      "joint_success": 0.48882960986995666,
+      "detector_success": 0.6168722907635878,
+      "logical_success": 0.6895631877292431,
+      "macro_joint_success": 0.4639664565115411
+    },
+    {
+      "trial_key": "replicate_05_natural",
+      "status": "completed",
+      "joint_success": 0.5568522840946982,
+      "detector_success": 0.6468822940980327,
+      "logical_success": 0.7782594198066022,
+      "macro_joint_success": 0.39403904499236786
+    },
+    {
+      "trial_key": "replicate_05_80_20",
+      "status": "completed",
+      "joint_success": 0.5698566188729577,
+      "detector_success": 0.6305435145048349,
+      "logical_success": 0.7959319773257753,
+      "macro_joint_success": 0.42239038021085223
+    },
+    {
+      "trial_key": "replicate_05_75_25",
+      "status": "completed",
+      "joint_success": 0.515838612870957,
+      "detector_success": 0.6208736245415138,
+      "logical_success": 0.7269089696565522,
+      "macro_joint_success": 0.4534971875231468
+    },
+    {
+      "trial_key": "replicate_05_70_30",
+      "status": "completed",
+      "joint_success": 0.4534844948316105,
+      "detector_success": 0.55351783927976,
+      "logical_success": 0.6842280760253417,
+      "macro_joint_success": 0.40896630401473266
+    },
+    {
+      "trial_key": "replicate_05_65_35",
+      "status": "completed",
+      "joint_success": 0.5141713904634878,
+      "detector_success": 0.6378792930976992,
+      "logical_success": 0.7142380793597866,
+      "macro_joint_success": 0.49043118835679606
+    },
+    {
+      "trial_key": "replicate_05_60_40",
+      "status": "completed",
+      "joint_success": 0.4748249416472157,
+      "detector_success": 0.6312104034678226,
+      "logical_success": 0.6542180726908969,
+      "macro_joint_success": 0.45194571404088946
+    },
+    {
+      "trial_key": "replicate_05_50_50",
+      "status": "completed",
+      "joint_success": 0.38946315438479495,
+      "detector_success": 0.6168722907635878,
+      "logical_success": 0.5441813937979326,
+      "macro_joint_success": 0.443398267926726
+    },
+    {
+      "trial_key": "replicate_06_natural",
+      "status": "completed",
+      "joint_success": 0.5371790596865622,
+      "detector_success": 0.6318772924308103,
+      "logical_success": 0.7552517505835279,
+      "macro_joint_success": 0.36903428854429454
+    },
+    {
+      "trial_key": "replicate_06_80_20",
+      "status": "completed",
+      "joint_success": 0.5048349449816606,
+      "detector_success": 0.614538179393131,
+      "logical_success": 0.7269089696565522,
+      "macro_joint_success": 0.3890952436971617
+    },
+    {
+      "trial_key": "replicate_06_75_25",
+      "status": "completed",
+      "joint_success": 0.5445148382794265,
+      "detector_success": 0.6265421807269089,
+      "logical_success": 0.7632544181393798,
+      "macro_joint_success": 0.42778622561684954
+    },
+    {
+      "trial_key": "replicate_06_70_30",
+      "status": "completed",
+      "joint_success": 0.5318439479826609,
+      "detector_success": 0.6252084028009336,
+      "logical_success": 0.745248416138713,
+      "macro_joint_success": 0.46403943712701823
+    },
+    {
+      "trial_key": "replicate_06_65_35",
+      "status": "completed",
+      "joint_success": 0.5655218406135378,
+      "detector_success": 0.6628876292097365,
+      "logical_success": 0.7839279759919974,
+      "macro_joint_success": 0.4427668585221752
+    },
+    {
+      "trial_key": "replicate_06_60_40",
+      "status": "completed",
+      "joint_success": 0.5155051683894631,
+      "detector_success": 0.6552184061353784,
+      "logical_success": 0.6762254084694899,
+      "macro_joint_success": 0.4878637956600861
+    },
+    {
+      "trial_key": "replicate_06_50_50",
+      "status": "completed",
+      "joint_success": 0.43514504834944984,
+      "detector_success": 0.6085361787262421,
+      "logical_success": 0.6032010670223408,
+      "macro_joint_success": 0.44714896323955505
+    },
+    {
+      "trial_key": "replicate_07_natural",
+      "status": "completed",
+      "joint_success": 0.5505168389463154,
+      "detector_success": 0.648216072024008,
+      "logical_success": 0.7655885295098366,
+      "macro_joint_success": 0.4572449781348624
+    },
+    {
+      "trial_key": "replicate_07_80_20",
+      "status": "completed",
+      "joint_success": 0.5595198399466489,
+      "detector_success": 0.6618872957652551,
+      "logical_success": 0.7659219739913304,
+      "macro_joint_success": 0.4261879138291368
+    },
+    {
+      "trial_key": "replicate_07_75_25",
+      "status": "completed",
+      "joint_success": 0.5688562854284761,
+      "detector_success": 0.6682227409136379,
+      "logical_success": 0.7752584194731578,
+      "macro_joint_success": 0.4258411651337106
+    },
+    {
+      "trial_key": "replicate_07_70_30",
+      "status": "completed",
+      "joint_success": 0.5458486162054018,
+      "detector_success": 0.6655551850616872,
+      "logical_success": 0.7542514171390463,
+      "macro_joint_success": 0.467925564129265
+    },
+    {
+      "trial_key": "replicate_07_65_35",
+      "status": "completed",
+      "joint_success": 0.5105035011670557,
+      "detector_success": 0.6258752917639213,
+      "logical_success": 0.6988996332110704,
+      "macro_joint_success": 0.45698791208631606
+    },
+    {
+      "trial_key": "replicate_07_60_40",
+      "status": "completed",
+      "joint_success": 0.4488162720906969,
+      "detector_success": 0.5798599533177726,
+      "logical_success": 0.6615538512837612,
+      "macro_joint_success": 0.397276697471022
+    },
+    {
+      "trial_key": "replicate_07_50_50",
+      "status": "completed",
+      "joint_success": 0.40913637879293097,
+      "detector_success": 0.6152050683561187,
+      "logical_success": 0.5761920640213405,
+      "macro_joint_success": 0.4589126396616604
+    },
+    {
+      "trial_key": "replicate_08_natural",
+      "status": "completed",
+      "joint_success": 0.5515171723907969,
+      "detector_success": 0.6405468489496499,
+      "logical_success": 0.7702567522507503,
+      "macro_joint_success": 0.37448169239505674
+    },
+    {
+      "trial_key": "replicate_08_80_20",
+      "status": "completed",
+      "joint_success": 0.5875291763921308,
+      "detector_success": 0.6755585195065021,
+      "logical_success": 0.802267422474158,
+      "macro_joint_success": 0.4163351676520865
+    },
+    {
+      "trial_key": "replicate_08_75_25",
+      "status": "completed",
+      "joint_success": 0.5408469489829943,
+      "detector_success": 0.6472157385795265,
+      "logical_success": 0.7405801933977992,
+      "macro_joint_success": 0.4634871808278108
+    },
+    {
+      "trial_key": "replicate_08_70_30",
+      "status": "completed",
+      "joint_success": 0.5318439479826609,
+      "detector_success": 0.6335445148382794,
+      "logical_success": 0.752917639213071,
+      "macro_joint_success": 0.4626836678822841
+    },
+    {
+      "trial_key": "replicate_08_65_35",
+      "status": "completed",
+      "joint_success": 0.5095031677225742,
+      "detector_success": 0.6288762920973658,
+      "logical_success": 0.7279093031010336,
+      "macro_joint_success": 0.4604386970091745
+    },
+    {
+      "trial_key": "replicate_08_60_40",
+      "status": "completed",
+      "joint_success": 0.5115038346115371,
+      "detector_success": 0.6515505168389463,
+      "logical_success": 0.6862287429143048,
+      "macro_joint_success": 0.47455155045683683
+    },
+    {
+      "trial_key": "replicate_08_50_50",
+      "status": "completed",
+      "joint_success": 0.4424808269423141,
+      "detector_success": 0.6098699566522174,
+      "logical_success": 0.6505501833944648,
+      "macro_joint_success": 0.43065570722936536
+    }
+  ]
+}
