@@ -192,8 +192,7 @@ To evaluate whether deliberate oversampling of minority-class error configuratio
 ## 8. Setup & Reproducibility
 
 ### Install dependencies
-pip install stim pymatching torch numpy scipy pandas scikit-learn matplotlib
-```
+```bash pip install stim pymatching torch numpy scipy pandas scikit-learn matplotlib```
 
 ### Reproducing Benchmark Tables
 1. **Supervised & Baseline Results:**
